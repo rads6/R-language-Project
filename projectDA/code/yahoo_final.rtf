@@ -1,0 +1,262 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.10586}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9\par
+yahoo_proxy2015 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000119312515156926/d868077ddef14a.htm") \par
+\par
+ yahoo_proxy2014 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000119312514172132/d710905ddef14a.htm") \par
+\par
+ yahoo_proxy2013 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000119312513187918/d501548ddef14a.htm") \par
+\par
+ yahoo_proxy2012 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000119312512258870/d319086ddef14a.htm") \par
+\par
+ yahoo_proxy2011 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000119312511118858/ddef14a.htm") \par
+\par
+yahoo_proxy2010 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000119312510099552/ddef14a.htm") \par
+\par
+yahoo_proxy2009 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000119312509092231/ddef14a.htm") \par
+\par
+yahoo_proxy2007 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000089161807000262/f29344dedef14a.htm") \par
+\par
+yahoo_proxy2006 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000104746906005177/a2169174zdef14a.htm") \par
+\par
+yahoo_proxy2005 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000104746905009069/a2155064zdef14a.htm") \par
+\par
+yahoo_proxy2004 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000104746904011520/a2133092zdef14a.htm") \par
+\par
+yahoo_proxy2003 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000104746903013438/a2107772zdef14a.htm") \par
+\par
+yahoo_proxy2002 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000091205702010171/a2073396zdef14a.htm") \par
+\par
+yahoo_proxy2001 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000091205702010171/a2073396zdef14a.htm")\par
+\par
+yahoo_proxy2000 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/000091205700015628/0000912057-00-015628-d1.html")\par
+\par
+yahoo_proxy1999 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/0001047469-99-014073.txt")\par
+\par
+yahoo_proxy1998 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/0001047469-98-009653.txt")\par
+\par
+yahoo_proxy1997 <- readLines("https://www.sec.gov/Archives/edgar/data/1011006/0000891618-97-001322.txt")\par
+\par
+\par
+qa_sentence_start <- "QUESTIONS AND ANSWERS ABOUT OUR PROXY MATERIALS"\par
+grep(qa_sentence_start, yahoo_proxy2014, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2015, ignore.case = TRUE)\par
+grep(qa_sentence_start, yahoo_proxy2013, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2012, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2011, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2009, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2003, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2007, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2006, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2005, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2010, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2003, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2002, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2001, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2000, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy1999, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy1998, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy1997, ignore.case = TRUE) \par
+\par
+qa_sentence_start <- "QUESTIONS AND ANSWERS ABOUT THE PROXY MATERIALS"\par
+grep(qa_sentence_start, yahoo_proxy2014, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2015, ignore.case = TRUE)\par
+grep(qa_sentence_start, yahoo_proxy2013, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2012, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2010, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2011, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2009, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2003, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2007, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2006, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2005, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2004, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2002, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2001, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy2000, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy1999, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy1998, ignore.case = TRUE) \par
+grep(qa_sentence_start, yahoo_proxy1997, ignore.case = TRUE)\par
+\par
+qa_sentence_end <- "Your electronic delivery enrollment will be effective until you cancel it"\par
+grep(qa_sentence_end, yahoo_proxy2010, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2011, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2012, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2013, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2015, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2014, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2009, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2007, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2006, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2005, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2004, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2003, ignore.case = TRUE)\par
+grep(qa_sentence_end, yahoo_proxy2002, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2001, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2000, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy1999, ignore.case = TRUE)\par
+grep(qa_sentence_end, yahoo_proxy1998, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy1997, ignore.case = TRUE) \par
+\par
+qa_sentence_end <- "If you have questions about electronic delivery"\par
+grep(qa_sentence_end, yahoo_proxy2010, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2011, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2012, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2013, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2015, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2014, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2009, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2007, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2006, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2005, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2004, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2003, ignore.case = TRUE)\par
+grep(qa_sentence_end, yahoo_proxy2002, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2001, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy2000, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy1999, ignore.case = TRUE)\par
+grep(qa_sentence_end, yahoo_proxy1998, ignore.case = TRUE) \par
+grep(qa_sentence_end, yahoo_proxy1997, ignore.case = TRUE) \par
+\par
+\par
+qa_section2014 <- yahoo_proxy2014[688:1649]\par
+cat(qa_section2014,file="C:/Users/gupta/Desktop/assign/yahoo/qa_section/yahoo_proxyqa_section2014.txt", sep="n",append = TRUE)\par
+\par
+qa_section2013 <- yahoo_proxy2013[213:970]\par
+cat(qa_section2013,file="C:/Users/gupta/Desktop/assign/yahoo/qa_section/yahoo_proxyqa_section2013.txt", sep="n",append = TRUE)\par
+\par
+qa_section2012 <- yahoo_proxy2012[218:904]\par
+cat(qa_section2012,file="C:/Users/gupta/Desktop/assign/yahoo/qa_section/yahoo_proxyqa_section2012.txt", sep="n",append = TRUE)\par
+\par
+qa_section2011 <- yahoo_proxy2011[206:877]\par
+cat(qa_section2011,file="CC:/Users/gupta/Desktop/assign/yahoo/qa_section/yahoo_proxyqa_section2011.txt", sep="n",append = TRUE)\par
+\par
+qa_section2010 <- yahoo_proxy2010[207:813]\par
+cat(qa_section2010,file="C:/Users/gupta/Desktop/assign/yahoo/qa_section/yahoo_proxyqa_section2010.txt", sep="n",append = TRUE)\par
+\par
+qa_section2009 <- yahoo_proxy2009[241:776]\par
+cat(qa_section2009,file="C:/Users/gupta/Desktop/assign/yahoo/qa_section/yahoo_proxyqa_section2009.txt", sep="n",append = TRUE)\par
+\par
+qa_section2007 <- yahoo_proxy2007[525:1814]\par
+cat(qa_section2007,file="C:/Users/gupta/Desktop/assign/yahoo/qa_section/yahoo_proxyqa_section2007.txt", sep="n",append = TRUE)\par
+\par
+qa_section2006 <- yahoo_proxy2006[321:586]\par
+cat(qa_section2006,file="C:/Users/gupta/Desktop/assign/yahoo/qa_section/yahoo_proxyqa_section2006.txt", sep="n",append = TRUE)\par
+\par
+qa_section2015 <- yahoo_proxy2015[669:1578]\par
+cat(qa_section2015,file="C:/Users/gupta/Desktop/assign/yahoo/qa_section/yahoo_proxyqa_section2015.txt", sep="n",append = TRUE)\par
+\par
+qa_section2005<- yahoo_proxy2005[319:512]\par
+cat(qa_section2005,file="C:/Users/gupta/Desktop/assign/yahoo/qa_section/yahoo_proxyqa_section2005.txt", sep="n",append = TRUE)\par
+\par
+cname <- "C:/Users/gupta/Desktop/assign/yahoo/qa_section/"\par
+\par
+library(tm) \par
+\par
+qa_sections <- Corpus(DirSource(cname))\par
+\par
+inspect(qa_sections[1]) \par
+\par
+dir(cname) \par
+\par
+class(qa_sections) [1]\par
+\par
+class(qa_sections[[1]])\par
+\par
+summary(qa_sections)\par
+\par
+install.packages("magrittr")\par
+\par
+library(magrittr)\par
+\par
+viewDocs <- function(d,n) \{d %>% extract2(n) %>% as.character() %>% writeLines()\}\par
+\par
+viewDocs(qa_sections, 1)\par
+\par
+qa_sections <- tm_map(qa_sections, content_transformer(tolower))\par
+\par
+qa_sections <- tm_map(qa_sections, removeNumbers)\par
+\par
+qa_sections <- tm_map(qa_sections, removeWords, stopwords("english"))\par
+\par
+viewDocs(qa_sections, 1) \par
+\par
+length(stopwords("english")) \par
+\par
+stopwords("en") \par
+\par
+toSpace <- content_transformer(function(x, pattern) gsub(pattern, " ",x))\par
+\par
+qa_sections <- tm_map(qa_sections, toSpace, "/|<|>|\rdblquote |=|@|\\\\|:|;|-|\\"")\par
+\par
+qa_sections <- tm_map(qa_sections, removePunctuation)\par
+\par
+qa_sections <- tm_map(qa_sections, stripWhitespace)\par
+\par
+viewDocs(qa_sections, 1)\par
+\par
+qa_sections <- tm_map(qa_sections, removeWords, c("b", "q", "a", "i", "e", "font",\par
+                                                  "style","n","trim","size","font", "can", "also", "e", "mail", "via", "td", "align","border",\par
+                                                  "familytimes", "roman", "p", "tr", "nbsp", "with", "table", "cellspacing", "valign", "cellpadding",\par
+                                                  "width", "top", "left", "sizepx", "telephone", "if", "may", "help", "us", "will", "please", "unless",\par
+                                                  "visit", "thnbsp","toppx","bottompx", "nnn", "address", "nonbsp", "new", "bottom", "em"))\par
+\par
+viewDocs(qa_sections, 1) \par
+\par
+toString <- content_transformer(function(x, from, to) gsub(from, to, x))\par
+\par
+qa_sections <- tm_map(qa_sections, toString, "broker bank", "bb")\par
+\par
+install.packages("SnowballC") \par
+\par
+qa_sections <-tm_map(qa_sections, stemDocument)\par
+\par
+viewDocs(qa_sections, 1) \par
+\par
+qa_sections <-tm_map(qa_sections, PlainTextDocument) \par
+\par
+qa_dtm <- DocumentTermMatrix(qa_sections)\par
+\par
+qa_dtm\par
+\par
+inspect(qa_dtm[1:9, 100:105])\par
+\par
+freq <- colSums((as.matrix(qa_dtm)))\par
+\par
+length(freq)\par
+\par
+ord <- order(freq)\par
+\par
+freq[head(ord)]\par
+\par
+tail(table(freq), 15)\par
+\par
+m<-as.matrix(qa_dtm)\par
+\par
+ dim(m) \par
+ \par
+ write.csv(m,file= "C:/Users/gupta/Desktop/assign/yahoo/qa_section/qa_dtm.csv")\par
+ dtms <- removeSparseTerms(qa_dtm, 0.1)\par
+ \par
+ dim(dtms)\par
+\par
+ inspect(qa_dtm)\par
+\par
+ freq <-colSums(as.matrix(qa_dtm))\par
+ freq\par
+ \par
+freq <- colsums(qa_dtm)\par
+freq <- sort( freq, decreasing=TRUE)\par
+install.packages("wordcloud")\par
+install.packages("tm")\par
+install.packages("nlp")\par
+install.packages("ggplot")\par
+library(wordcloud)\par
+\par
+set.seed(123)\par
+wordcloud (qa_sections, scale=c(5,0.5), max.words=50, random.order=FALSE, rot.per=0.35, use.r.layout=FALSE)\par
+\par
+\par
+\par
+}
+ 
